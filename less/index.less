@@ -1,0 +1,111 @@
+@charset "utf-8";
+@divide: 10;
+@pswWidth: 640px;
+@ppr: @pswWidth/@divide/1rem; // 定义单位
+@img: "../img";
+
+
+.banner-section{
+  height: 600px/@ppr;
+  padding-bottom:36px/@ppr;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+
+
+  .banner-subhead{
+    display: flex;
+    align-items:center;
+    padding-left:56px/@ppr;
+    margin-bottom: 26px/@ppr;
+    font-size: 0;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    .banner-subhead-icon{
+      width: 40px/@ppr;
+      height: 40px/@ppr;
+      display: inline-block;
+      margin-right: 10px/@ppr;
+    }
+    .banner-subhead-text{
+      display: inline-block;
+      font-size: 28px/@ppr;
+      line-height: 35px/@ppr;
+      color:#ffffff;
+      font-weight: 600;
+      margin-left: 10px/@ppr;
+    }
+    .banner-subhead-text.lines{
+      font-size: 25px/@ppr;
+    }
+  }
+}
+.need-section{
+  position: relative;
+  height: 570px/@ppr;
+  background-image:url(../img/need-background.png);
+  background-size: cover;
+  padding:46px/@ppr 0 0 170px/@ppr;
+  .need-text{
+    font-size: 40px/@ppr;
+    line-height: 40px/@ppr;  
+    font-weight: 600;  
+  }
+  .need-text.title{
+    color: #fff;
+    margin-bottom: 10px/@ppr;
+  }
+  .need-text.subhead{
+    color: #00ffa8;
+  }
+  .need-content-list{
+    position:absolute;
+    top: 164px/@ppr;
+    left: 150px/@ppr;
+    width: 460px/@ppr;
+    height: 270px/@ppr;
+    .need-item{
+      position:absolute;
+      font-size: 28px/@ppr;
+      line-height: 28px/@ppr;
+      color: #fff;
+    }
+    .need-item.step1{
+      top: 38px/@ppr;
+      left: 36px/@ppr;
+    }
+    .need-item.step2{
+      top: 38px/@ppr;
+      left: 250px/@ppr;
+    }
+    .need-item.step3{
+      top: 94px/@ppr;
+      left: 50px/@ppr;
+    }
+    .need-item.step4{
+      top: 100px/@ppr;
+      left: 296px/@ppr;
+    }
+    .need-item.step5{
+      top: 150px/@ppr;
+      left: 106px/@ppr;
+    }
+    .need-item.step6{
+      top: 200px/@ppr;
+      left: 46px/@ppr;
+    }
+    .need-item.step7{
+      top: 220px/@ppr;
+      left: 170px/@ppr;
+    }
+    .need-item.step8{
+      top: 190px/@ppr;
+      left: 320px/@ppr;
+    }
+
+  }
+}

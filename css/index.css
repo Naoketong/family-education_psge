@@ -1,0 +1,100 @@
+@charset "utf-8";
+.banner-section {
+  height: 9.375rem;
+  padding-bottom: 0.5625rem;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+}
+.banner-section .banner-subhead {
+  display: flex;
+  align-items: center;
+  padding-left: 0.875rem;
+  margin-bottom: 0.40625rem;
+  font-size: 0;
+}
+.banner-section .banner-subhead:last-child {
+  margin-bottom: 0;
+}
+.banner-section .banner-subhead .banner-subhead-icon {
+  width: 0.625rem;
+  height: 0.625rem;
+  display: inline-block;
+  margin-right: 0.15625rem;
+}
+.banner-section .banner-subhead .banner-subhead-text {
+  display: inline-block;
+  font-size: 0.4375rem;
+  line-height: 0.546875rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 0.15625rem;
+}
+.banner-section .banner-subhead .banner-subhead-text.lines {
+  font-size: 0.390625rem;
+}
+.need-section {
+  position: relative;
+  height: 8.90625rem;
+  background-image: url(../img/need-background.png);
+  background-size: cover;
+  padding: 0.71875rem 0 0 2.65625rem;
+}
+.need-section .need-text {
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+  font-weight: 600;
+}
+.need-section .need-text.title {
+  color: #fff;
+  margin-bottom: 0.15625rem;
+}
+.need-section .need-text.subhead {
+  color: #00ffa8;
+}
+.need-section .need-content-list {
+  position: absolute;
+  top: 2.5625rem;
+  left: 2.34375rem;
+  width: 7.1875rem;
+  height: 4.21875rem;
+}
+.need-section .need-content-list .need-item {
+  position: absolute;
+  font-size: 0.4375rem;
+  line-height: 0.4375rem;
+  color: #fff;
+}
+.need-section .need-content-list .need-item.step1 {
+  top: 0.59375rem;
+  left: 0.5625rem;
+}
+.need-section .need-content-list .need-item.step2 {
+  top: 0.59375rem;
+  left: 3.90625rem;
+}
+.need-section .need-content-list .need-item.step3 {
+  top: 1.46875rem;
+  left: 0.78125rem;
+}
+.need-section .need-content-list .need-item.step4 {
+  top: 1.5625rem;
+  left: 4.625rem;
+}
+.need-section .need-content-list .need-item.step5 {
+  top: 2.34375rem;
+  left: 1.65625rem;
+}
+.need-section .need-content-list .need-item.step6 {
+  top: 3.125rem;
+  left: 0.71875rem;
+}
+.need-section .need-content-list .need-item.step7 {
+  top: 3.4375rem;
+  left: 2.65625rem;
+}
+.need-section .need-content-list .need-item.step8 {
+  top: 2.96875rem;
+  left: 5rem;
+}

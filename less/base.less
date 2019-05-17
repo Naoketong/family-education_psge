@@ -1,0 +1,163 @@
+@charset "utf-8";
+@divide: 10;
+@pswWidth: 320;
+@ppr: 320px/@divide/1rem;// 定义单位
+body,
+fieldset,
+figure,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+textarea,
+button,
+legend,
+ul,
+li,
+ol,
+dd,
+dl,
+dt,
+div,
+p,
+a,
+span,
+i,
+img,
+pre {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, ~"\5b8b\4f53", sans-serif;
+}
+address,
+cite,
+dfn,
+em,
+i,
+var {
+  font-style: normal;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: courier new, courier, monospace;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+fieldset,
+img {
+  border: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+iframe {
+  vertical-align: top;
+}
+button {
+  border: 0 none;
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+video {
+  display: block;
+}
+input {
+  outline: 0;
+  border: 0;
+}
+.cf {
+  zoom: 1;
+}
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+img,
+input,
+label,
+select {
+  vertical-align: middle;
+}
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+body,
+input,
+textarea,
+select,
+button,
+table {
+  font-size: 14px/@ppr;
+  line-height: 14px/@ppr;
+}
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button,
+select {
+  -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.textell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #c3c3c3;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #c3c3c3;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #c3c3c3;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #c3c3c3;
+}
