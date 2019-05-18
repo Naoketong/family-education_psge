@@ -536,3 +536,97 @@
     }
   }
 }
+.success-container{
+  display: none;
+  color: #fff;
+  .success-toast{
+    height: 588/@ppr;
+    padding-top: 290/@ppr;
+    text-align: center;
+    background: url('@{img}/success.jpg') no-repeat center ~'/' 640/@ppr 588/@ppr;
+    .toast-title{
+      height: 40/@ppr;
+      font-size: 40/@ppr;
+      color: #3ae268;
+    }
+    .toast-p{
+      height: 54/@ppr;
+      line-height: 54/@ppr;
+      font-size: 28/@ppr;
+    }
+  }
+  .student{
+    padding: 70/@ppr 0 190/@ppr;
+    background: url('@{img}/student-bg.jpg') no-repeat center ~'/' 640/@ppr 1070/@ppr;
+    .introduce{
+      line-height: 53/@ppr;
+      margin-bottom: 60/@ppr;
+      text-align: center;
+      font-size: 36/@ppr;
+      .font-green{
+        color: #00ffa8;
+      }
+    }
+    .student-list{
+      position: relative;
+      .student-item{
+        height: 158/@ppr;
+        margin-bottom: 50/@ppr;
+        padding-left: 60/@ppr;
+        text-align: left;
+        .student-logo{
+          float: left;
+          width: 153/@ppr;
+          height: 153/@ppr;
+          margin-right: 20/@ppr;
+          >img{
+            width: 153/@ppr;
+            height: 153/@ppr;
+            border-radius: 50%;
+          }
+        }
+        .student-desc{
+          float: left;
+          font-size: 28/@ppr;
+          padding-top: 5/@ppr;
+          >h4{
+            height: 40/@ppr;
+            line-height: 40/@ppr;
+            margin-bottom: 10/@ppr;
+            font-weight: 400;
+            font-size: 0;
+            .name{
+              display: inline-block;
+              font-size: 28/@ppr;
+            }
+            .experience{
+              position: relative;
+              top: -4/@ppr;
+              display: inline-block;
+              width: 120/@ppr;
+              height: 25/@ppr;
+              line-height: 25/@ppr;
+              text-align: center;
+              padding: 2/@ppr 5/@ppr;
+              margin-left: 10/@ppr;
+              background-color: #00ffa8;
+              border-radius: 10/@ppr;
+              font-size: 20/@ppr;
+              color: #000;
+              box-sizing: content-box;
+            }
+          }
+          .certificate{
+            line-height: 32/@ppr;
+            font-size: 24/@ppr;
+            color: #00ffa8;
+          }
+          .subject{
+            margin-top: 10/@ppr;
+            font-size: 24/@ppr;
+          }
+        }
+      }
+    }
+  }
+}

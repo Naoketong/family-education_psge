@@ -510,3 +510,97 @@
   border-radius: 0.15625rem;
   margin-right: 0.46875rem;
 }
+.success-container {
+  display: none;
+  color: #fff;
+}
+.success-container .success-toast {
+  height: 9.1875rem;
+  padding-top: 4.53125rem;
+  text-align: center;
+  background: url('../img/success.jpg') no-repeat center / 10rem 9.1875rem;
+}
+.success-container .success-toast .toast-title {
+  height: 0.625rem;
+  font-size: 0.625rem;
+  color: #3ae268;
+}
+.success-container .success-toast .toast-p {
+  height: 0.84375rem;
+  line-height: 0.84375rem;
+  font-size: 0.4375rem;
+}
+.success-container .student {
+  padding: 1.09375rem 0 2.96875rem;
+  background: url('../img/student-bg.jpg') no-repeat center / 10rem 16.71875rem;
+}
+.success-container .student .introduce {
+  line-height: 0.828125rem;
+  margin-bottom: 0.9375rem;
+  text-align: center;
+  font-size: 0.5625rem;
+}
+.success-container .student .introduce .font-green {
+  color: #00ffa8;
+}
+.success-container .student .student-list {
+  position: relative;
+}
+.success-container .student .student-list .student-item {
+  height: 2.46875rem;
+  margin-bottom: 0.78125rem;
+  padding-left: 0.9375rem;
+  text-align: left;
+}
+.success-container .student .student-list .student-item .student-logo {
+  float: left;
+  width: 2.390625rem;
+  height: 2.390625rem;
+  margin-right: 0.3125rem;
+}
+.success-container .student .student-list .student-item .student-logo > img {
+  width: 2.390625rem;
+  height: 2.390625rem;
+  border-radius: 50%;
+}
+.success-container .student .student-list .student-item .student-desc {
+  float: left;
+  font-size: 0.4375rem;
+  padding-top: 0.078125rem;
+}
+.success-container .student .student-list .student-item .student-desc > h4 {
+  height: 0.625rem;
+  line-height: 0.625rem;
+  margin-bottom: 0.15625rem;
+  font-weight: 400;
+  font-size: 0;
+}
+.success-container .student .student-list .student-item .student-desc > h4 .name {
+  display: inline-block;
+  font-size: 0.4375rem;
+}
+.success-container .student .student-list .student-item .student-desc > h4 .experience {
+  position: relative;
+  top: -0.0625rem;
+  display: inline-block;
+  width: 1.875rem;
+  height: 0.390625rem;
+  line-height: 0.390625rem;
+  text-align: center;
+  padding: 0.03125rem 0.078125rem;
+  margin-left: 0.15625rem;
+  background-color: #00ffa8;
+  border-radius: 0.15625rem;
+  font-size: 0.3125rem;
+  color: #000;
+  box-sizing: content-box;
+}
+.success-container .student .student-list .student-item .student-desc .certificate {
+  line-height: 0.5rem;
+  font-size: 0.375rem;
+  color: #00ffa8;
+}
+.success-container .student .student-list .student-item .student-desc .subject {
+  margin-top: 0.15625rem;
+  font-size: 0.375rem;
+}
