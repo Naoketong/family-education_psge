@@ -134,7 +134,8 @@
 .cultivate-section .cultivate-item .cultivate-item-text {
   display: inline-block;
   font-size: 0.390625rem;
-  color: #fff;
+  color: #c3c0c0;
+  font-weight: 400;
 }
 .cultivate-section .cultivate-certificate-list {
   font-size: 0;
@@ -185,8 +186,7 @@
   height: 13.125rem;
   background-image: url(../img/patent.png);
   background-size: cover;
-  position: relative;
-  top: -0.03125rem;
+  background-color: #313038;
   padding-top: 0.625rem;
 }
 .patent-section .patent-title {
@@ -209,10 +209,8 @@
 .teach-section {
   height: 11.875rem;
   background-image: url(../img/teach-background.png);
-  background-size: cover;
+  background-size: 100% 11.875rem;
   padding-top: 0.46875rem;
-  position: relative;
-  top: -0.03125rem;
 }
 .teach-section .teach-title {
   font-size: 0.625rem;
@@ -285,8 +283,6 @@
   height: 10rem;
   background-image: url(../img/publicity-background.png);
   background-size: cover;
-  position: relative;
-  top: -0.03125rem;
   padding-top: 0.625rem;
 }
 .publicity-section .publicity-title {
@@ -321,8 +317,6 @@
   background-color: #1c1c1c;
 }
 .consult-section {
-  position: relative;
-  top: -0.046875rem;
   height: 13.28125rem;
   background-color: #1f1f34;
   padding-top: 1.40625rem;
