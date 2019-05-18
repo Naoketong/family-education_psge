@@ -1,6 +1,5 @@
 ;
 (function(window, undefined){
-
   var imgCodeArr = [2432,7092,9746, 8182, 8463, 0864, 7199, 4631, 3322, 8555];
   var PAGE = PAGE || {};
   PAGE = {
@@ -8,7 +7,6 @@
       this.bind();
       this.getImgCode();
       this.slideshow();
-       
     },
     bind: function() {
       $('.submit').on('click', this.handleVerify);
@@ -30,11 +28,10 @@
       hmsr: '',
     },
     slideshow:function(){
-        var mySwiper = new Swiper ('.swiper-container', {
-        loop: true, // 循环模式选项
-        
-       pagination: {
-          el: '.swiper-pagination',
+      var mySwiper = new Swiper ('.swiper-container', {
+      loop: true, // 循环模式选项
+      pagination: {
+        el: '.swiper-pagination',
         },
       })       
     },
@@ -154,11 +151,10 @@
         alert('图片错误验证码')
         return
       }
-
+      
       PAGE.pushData.hmsr = PAGE.getQuery('hmsr');
       PAGE.pushData.position = $(this).data('pos');
       PAGE.pushData.tel = phone;
-
       // 验证码验证
       // console.log(code,phone,id);
       PAGE.checkLock = true;
@@ -183,10 +179,8 @@
           PAGE.checkLock = false;
         }
       })
-
       // 数据提交
       // PAGE.handleSubmit(PAGE.pushData);
-
     },
     handleSubmit: function(data) {
       $.ajax({
@@ -196,7 +190,7 @@
         success: function(res){
           if(res.code === 200){
             PAGE.checkLock = false;
-            alert('提交成功')
+            $('.success-container').fadeIn().siblings().fadeOut();
           }else{
             alert(res.message);
             PAGE.checkLock = false;
