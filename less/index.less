@@ -18,11 +18,9 @@
     padding-left:56px/@ppr;
     margin-bottom: 26px/@ppr;
     font-size: 0;
-
     &:last-child{
       margin-bottom: 0;
     }
-
     .banner-subhead-icon{
       width: 40px/@ppr;
       height: 40px/@ppr;
@@ -42,6 +40,7 @@
     }
   }
 }
+
 .need-section{
   position: relative;
   height: 570px/@ppr;
@@ -103,6 +102,7 @@
     }
   }
 }
+
 .cultivate-section{
   height: 790px/@ppr;
   background-image:url(../img/cultivate-background.png);
@@ -168,17 +168,19 @@
     }
   }
 }
+
 .authorization-section{
   height: 840px/@ppr;
   background-image:url(../img/authorization.png);
   background-size:cover;
 }
+
 .patent-section{
   height: 840px/@ppr;
   background-image:url(../img/patent.png);
   background-size:cover;
-
 }
+
 .teach-section{
   height: 760px/@ppr;
   background-image:url(../img/teach-background.png);
@@ -199,23 +201,25 @@
     background-size:cover;
     margin-top: 36px/@ppr;
     margin-bottom: 34px/@ppr;
-  }
-  
+  } 
   .swiper-container{
-     width: 510px/@ppr;
-      height: 288px/@ppr;
-      font-size: 0;
+    width: 510px/@ppr;
+    height: 350px/@ppr;
+    font-size: 0;
+    padding-right:10px/@ppr;
     .swiper-slide{
+      width: 510px/@ppr;
+      height: 288px/@ppr;
       border-radius:10px/@ppr;
       background-color:rgba(0,0,0,.5);  
       padding-top:22px/@ppr;  
     }
     .teach-slide-head{
       margin-left: 26px/@ppr;
-      margin-bottom: 18px/@ppr;
       .teach-name{
         display: inline-block;
         font-size: 55px/@ppr;
+        line-height: 55px/@ppr;
         color: #fff;
         vertical-align: middle;
       }
@@ -226,11 +230,14 @@
         .teach-actor-item{
           font-size: 20px/@ppr;
           color: #e6e6e6;
+          width: 270px/@ppr;
+          white-space: normal;
         }
       }
     }
     .teach-describe{
-      margin-left: 38px/@ppr;
+      margin-left: 34px/@ppr;
+      margin-top: 18px/@ppr;
       .teach-describe-text{
         font-size: 20px/@ppr;
         line-height: 32px/@ppr;
@@ -238,15 +245,20 @@
 
       }
     }
+    .swiper-pagination{
+      .swiper-pagination-bullet{
+        width: 12px/@ppr;
+        height: 12px/@ppr;
+        border-radius:50%;
+        border:3px/@ppr solid #fff;
+      }
+      .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background-color:#1c1c1c;
+      }
+    }
 
   }
 }
-
-
-
-
-
-
 
 .publicity-section{
   height: 640px/@ppr;
@@ -268,31 +280,42 @@
     margin-top:68px/@ppr;
     .swiper-container{
       margin:0 auto;
-       width: 560px/@ppr;
-      height: 310px/@ppr;
+      width: 560px/@ppr;
+      height: 420px/@ppr;
     }
-    .swiper-wrapper{
-      // width: 560px/@ppr;
-      // height: 310px/@ppr;
-      
+    .swiper-wrapper{            
       .swiper-slide{
-        border-radius:8px/@ppr;
-        & img{
-          width: 100%;
-          height: 100%;
+        & img{;
+          width: 560px/@ppr;
+          height: 310px/@ppr;
+          border-radius:8px/@ppr;
         }
+      }
+    }
+    .swiper-pagination{
+      .swiper-pagination-bullet{
+        width: 12px/@ppr;
+        height: 12px/@ppr;
+        border-radius:50%;
+        border:3px/@ppr solid #fff;
+      }
+      .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background-color:#1c1c1c;
       }
     }
   }
 }
 
 .consult-section{
-  height: 820px/@ppr;
+  position:relative;
+  top: -3px/@ppr;
+  height: 840px/@ppr;
   background-color: #1f1f34;
   padding-top:90px/@ppr;
   text-align: center;
   .consult-title{
     font-size: 40px/@ppr;
+    line-height:  40px/@ppr;
     color: #fff;
     margin-bottom: 60px/@ppr;
     & span{
@@ -303,66 +326,137 @@
     font-size: 40px/@ppr;
     line-height: 50px/@ppr;
     color: #fff;
-    margin-bottom: 50px/@ppr;
+    margin-bottom: 70px/@ppr;
   }
-  .consult-verification{
-    width: 520px/@ppr;
-    height: 270px/@ppr;
-    background-color: #fff;
-    border-radius:8px/@ppr;
-    margin:0 auto;
-    overflow: hidden;
+  .from-container{
+    position: relative;
+    display: block;
+    width: 580/@ppr;
+    margin: 0 auto;
+    .phone-container{
+      background: #fff;
+      border-radius: 10/@ppr;
+      overflow: hidden;
+    }
     .telephone-label{
       position: relative;
       display: block;
       width: 100%;
-      line-height: 1.25rem;
+      line-height: 80/@ppr;
       margin: 0 auto;
       color: #616161;
-      font-size: 0.4375rem;
+      font-size: 28/@ppr;
       .telephone-text{
         display: block;
-        height: 1.25rem;
+        height: 80/@ppr;
         width: 100%;
-        padding: 0 3.28125rem 0 0.46875rem;
-        border-radius: 0.15625rem;
-        border: 0.03125rem solid transparent;
+        padding: 0 210/@ppr 0 30/@ppr;
+        border-radius: 10/@ppr;
+        border: 2/@ppr solid transparent;
       }
-      .error-message{
-        display: none;
-        position: absolute;
-        right: 0.3125rem;
-        top: 50%;
-        margin-top: -0.234375rem;
-        height: 0.46875rem;
-        line-height: 0.46875rem;
-        color: #e72c2b;
-        font-size: 0.375rem;
+      &.error{
+        .error-message{
+          display: inline-block;
+        }
       }
     }
     .imgcode-label{
       position: relative;
-      height: 1.25rem;
+      height: 80/@ppr;
       display: flex;
-      -webkit-box-align: center;
       align-items: center;
-      width: 9.0625rem;
+      width: 580/@ppr;
+      &:before{
+        content: '';
+        height: 1px;
+        background: #f1f1f1;
+        position: absolute;
+        top: 0;
+        left: 30/@ppr;
+        width: 520/@ppr;
+      }
       .imgcode-input{
-        padding: 0 0.46875rem;
-       -webkit-box-flex: 1;
+        padding: 0 30/@ppr;
+        flex: 1;
+        width: 380/@ppr;
       }
       .imgcode-img{
-        -webkit-box-flex: 0;
         flex: none;
-        width: 2.65625rem;
-        height: 0.78125rem;
-        font-size: 0.375rem;
+        width: 170/@ppr;
+        height: 50/@ppr;
+        font-size: 24/@ppr;
         color: #e72c2b;
         text-align: center;
-        border-radius: 0.15625rem;
-        margin-right: 0.46875rem;
+        border-radius: 10/@ppr;
+        margin-right: 30/@ppr;
         background-color: #f1f1f1;
       }
+    }
+    .sms-label{
+      position: relative;
+      height: 80/@ppr;
+      display: flex;
+      align-items: center;
+      width: 580/@ppr;
+      &:before{
+        content: '';
+        height: 1px;
+        background: #f1f1f1;
+        position: absolute;
+        top: 0;
+        left: 30/@ppr;
+        width: 520/@ppr;
+      }
+      .sms-code{
+        padding: 0 30/@ppr;
+        flex: 1;
+        width: 380/@ppr;
+      }
+      .send-code{
+        flex: none;
+        width: 170/@ppr;
+        line-height: 50/@ppr;
+        font-size: 24/@ppr;
+        color: #e72c2b;
+        text-align: center;
+        border: 2/@ppr solid #e72c2b;
+        border-radius: 10/@ppr;
+        margin-right: 30/@ppr;
+        &.active{
+          color: #999;
+          background-color: #f1f1f1;
+          border-color: #f1f1f1;
+        }
+      }
+    }
+    .submit-label{
+      position: relative;
+      display: block;
+      width: 100%;
+      margin: 40/@ppr auto 30/@ppr;
+      .submit{
+        display: block;
+        height: 95/@ppr;
+        width: 100%;
+        line-height: 95/@ppr;
+        border-radius: 10/@ppr;
+        box-shadow: 2/@ppr 2/@ppr 8/@ppr #222;
+        text-align: center;
+        color: #fff;
+        background-color: #e72c2b;
+        font-size: 40/@ppr;
+      }
+    }
+    .error-message{
+      display: none;
+      position: absolute;
+      right: 20/@ppr;
+      top: 50%;
+      margin-top: -15/@ppr;
+      height: 30/@ppr;
+      line-height: 30/@ppr;
+      color: #e72c2b;
+      font-size: 24/@ppr;
     }
   }
   .consult-submit{
@@ -413,19 +507,4 @@
     }
   }
 }
-.baudulixian-section{
-  position:fixed;
-  left: 0;
-  bottom: 0;
-  .lixianbao-button{
-    width: 640px/@ppr;
-    display: inline-block;
-    height: 74px/@ppr;
-    background-color:#00ffff;
-    text-align: center;
-    color: #333;
-    font-size: 40px/@ppr;
-    line-height: 74px/@ppr;
-    z-index: 99;
-  }
-}
+
