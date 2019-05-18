@@ -162,17 +162,57 @@
   height: 13.125rem;
   background-image: url(../img/authorization.png);
   background-size: cover;
+  padding-top: 0.5625rem;
+}
+.authorization-section .authorization-title {
+  font-size: 0.5rem;
+  line-height: 0.65625rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+.authorization-section .authorization-title span {
+  color: #e61019;
+}
+.authorization-section .authorization-img {
+  text-align: center;
+}
+.authorization-section .authorization-img img {
+  width: 6.875rem;
+  height: 9.75rem;
 }
 .patent-section {
   height: 13.125rem;
   background-image: url(../img/patent.png);
   background-size: cover;
+  position: relative;
+  top: -0.03125rem;
+  padding-top: 0.625rem;
+}
+.patent-section .patent-title {
+  font-size: 0.625rem;
+  line-height: 0.78125rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.625rem;
+}
+.patent-section .patent-title span {
+  color: #e61019;
+}
+.patent-section .patent-img {
+  text-align: center;
+}
+.patent-section .patent-img img {
+  width: 6.640625rem;
+  height: 9.84375rem;
 }
 .teach-section {
   height: 11.875rem;
   background-image: url(../img/teach-background.png);
   background-size: cover;
   padding-top: 0.46875rem;
+  position: relative;
+  top: -0.03125rem;
 }
 .teach-section .teach-title {
   font-size: 0.625rem;
@@ -283,7 +323,7 @@
 .consult-section {
   position: relative;
   top: -0.046875rem;
-  height: 13.125rem;
+  height: 13.28125rem;
   background-color: #1f1f34;
   padding-top: 1.40625rem;
   text-align: center;
