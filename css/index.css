@@ -194,7 +194,7 @@
   width: 7.96875rem;
   height: 5.46875rem;
   font-size: 0;
-  padding-right: 0.15625rem;
+  margin: 0 auto;
 }
 .teach-section .swiper-container .swiper-slide {
   width: 7.96875rem;
@@ -202,6 +202,7 @@
   border-radius: 0.15625rem;
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 0.34375rem;
+  padding-right: 0.15625rem;
 }
 .teach-section .swiper-container .teach-slide-head {
   margin-left: 0.40625rem;
@@ -221,8 +222,6 @@
 .teach-section .swiper-container .teach-slide-head .teach-actor-list .teach-actor-item {
   font-size: 0.3125rem;
   color: #e6e6e6;
-  width: 4.21875rem;
-  white-space: normal;
 }
 .teach-section .swiper-container .teach-describe {
   margin-left: 0.53125rem;
